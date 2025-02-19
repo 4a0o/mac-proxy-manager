@@ -5,7 +5,7 @@ class HTTPModel {
   // Observable server address
   final RxString server = '127.0.0.1'.obs;
   // Observable port
-  final RxString port = '8080'.obs;
+  final RxString port = '10801'.obs;
   // Observable for enabling/disabling this proxy
   final RxBool isEnabled = false.obs;
 }
@@ -15,7 +15,7 @@ class HTTPSModel {
   // Observable server address
   final RxString server = '127.0.0.1'.obs;
   // Observable port
-  final RxString port = '8080'.obs;
+  final RxString port = '10801'.obs;
   // Observable for enabling/disabling this proxy
   final RxBool isEnabled = false.obs;
 }
@@ -25,7 +25,7 @@ class SocksModel {
   // Observable server address
   final RxString server = '127.0.0.1'.obs;
   // Observable port
-  final RxString port = '8080'.obs;
+  final RxString port = '10800'.obs;
   // Observable for enabling/disabling this proxy
   final RxBool isEnabled = false.obs;
 }
